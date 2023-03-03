@@ -42,7 +42,7 @@ body{
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     font-weight: 800;
     align-items: center;
     letter-spacing: 0.03em;
@@ -66,24 +66,16 @@ body{
 .adress{
     font-style: normal;
 }
-.mail{
+.contact{
     color: #434455;
     font-size: 16px;
     line-height: 1,5;
 }
-.mail:hover,
-.mail:focus{
+.contact:hover,
+.contact:focus{
     color: #404BBF;
 }
-.tel {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1, 5;
-}
-.tel:hover,
-.tel:focus {
-    color: #404BBF;
-}
+
 /*------------ Hero------------  */
 .hero{
     background-color: #2E2F42;
@@ -148,12 +140,12 @@ color: var(--text-btn-focus);
 text-align: center;
 text-transform: capitalize;
 }
-.title-h2 {
+.title-two {
     color: var(--color-title);
     font-size: 36px;
     line-height: 1.11;     
 }
-.title-h3{
+.title-three{
 color: var(--color-title);
 font-weight: 500;
 font-size: 20px;
@@ -167,22 +159,22 @@ text-transform: capitalize;
 }
 /*---------Portfolio text---------  */
 .portfolio-text{
-    color: var(--color-text);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02;
+color: var(--color-text);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02;
 }
 /*------------ Footer------------  */
 .footer{
-    background-color: #2E2F42;
-    color: #E7E9FC;
+background-color: #2E2F42;
+color: #E7E9FC;
 }
 .nav-logo-footer{
 color: #4d5ae5;
 font-family: Raleway, sans-serif;
 text-transform: uppercase;
 font-size: 18px;
-line-height: 1.33;
+line-height: 1.17;
 font-weight: 800;
 align-items: center;
 letter-spacing: 0.03em;
