@@ -109,12 +109,12 @@ cursor: pointer;
     background-color: #404BBF;
 }
 
-/*----------- Button color------- */
+/* --------------Button color------- */
 
-.btn{
+.button{
     background-color: var(--color-btn-normal);
     color: var(--text-btn-normal);
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     width: 116px;
     height: 48px;
     border: 1px solid #E7E9FC;
@@ -126,7 +126,7 @@ cursor: pointer;
     cursor: pointer; 
 }
 
-.btn:focus, .btn:hover{
+.button:focus, .button:hover{
 background-color: var(--color-btn-focus);
 color: var(--text-btn-focus);
 }
