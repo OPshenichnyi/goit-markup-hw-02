@@ -1,0 +1,160 @@
+
+/*---------- CSS variables------------ */
+:root{
+    /* Basic color text  */
+    --color-text: #434455;
+    /* Color title  */
+    --color-title: #2E2F42;
+    /* Basic fon page */
+    --color-pages: #FFFFFF;
+    /* Color link */
+    --color-link:#2E2F42;
+    /* Color link focus & hover */
+    --color-link-focus:#404BBF;
+    /* Color batton  */
+    --color-btn-normal: #F4F4FD;
+    --color-btn-focus: #404BBF;
+    --text-btn-normal: #4D5AE5;
+    --text-btn-focus: #FFFFFF;
+}
+
+/*------- Color tex & body-----------  */
+body{
+    background-color: var(--color-pages);
+    color: var(--color-text);
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*---------- List none-------------- */
+.list{
+    list-style: none;
+}
+.hidden-title{
+    color: #FFFFFF;
+}
+
+/*----------- Style logo----------- */
+.nav-logo {
+    color: #2E2F42;
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 800;
+    align-items: center;
+    letter-spacing: 0.03em;
+}
+.nav-logo-letters{
+    color: #4D5AE5;
+}
+
+/*-------- Menu nav----------- */
+.nav-link{
+    color: var(--color-link);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--color-link-focus)
+}
+/*--------- Address------------ */
+.mail{
+    color: #434455;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1,5;
+}
+.mail:hover,
+.mail:focus{
+    color: #404BBF;
+}
+.tel {
+    color: #434455;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1, 5;
+}
+.tel:hover,
+.tel:focus {
+    color: #404BBF;
+}
+/*------------ Hero------------  */
+.hero{
+    background-color: #2E2F42;
+}
+
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #FFFFFF;
+}
+
+.hero-buton{
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+width: 169px;
+height: 56px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+}
+.hero-buton:focus,
+.hero-buton:hover{
+    background-color: #404BBF;
+}
+
+/*----------- Button color------- */
+
+.btn{
+    background-color: var(--color-btn-normal);
+    color: var(--text-btn-normal);
+    width: 116px;
+    height: 48px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4p;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer; 
+}
+
+.btn:focus{
+background-color: var(--color-btn-focus);
+color: var(--text-btn-focus);
+}
+/*------------ Title------------  */
+.title-h2 {
+    color: var(--color-title);
+    font-size: 36px;
+    line-height: 1.11;     
+}
+.title-h3{
+color: var(--color-title);
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+/*------------ Footer------------  */
+.footer{
+    background-color: #2E2F42;
+    color: #E7E9FC;
+}
+.logo-footer{
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+}
